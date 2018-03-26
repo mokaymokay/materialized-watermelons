@@ -9,13 +9,35 @@ nav {
 }
 
 p {
-  font-size: 10px;
+  font-size: 0.75em;
+  overflow: hidden;
+}
+
+.caption {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card {
+  height: 400px;
+}
+
+.image {
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 100%;
+}
+
+.card-content {
+  max-height: 200px;
+  min-height: 200px;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1280px;
-  width: 100%;
+  padding: 2%;
+  width: 90%;
 }
 
 @media only screen and (min-width: 601px)
