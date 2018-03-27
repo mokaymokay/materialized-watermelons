@@ -8,3 +8,7 @@ $(document).ready(function(){
   setTimeout(showModal, 3000);
 
 });
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
